@@ -13,16 +13,16 @@ const Contact= () => {
           <Col className="d-flex justify-content-center flex-wrap">
             {/* buttons */}
             <div className="m-2">
-              <a href="mailto:vibhor.formal@gmail.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="vibhor.formal@gmail.com">
+              <a href="mailto:sunitis0026@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-danger" title="sunitis0026@gmail.com">
                   <i className="fas fa-envelope-square"></i> Email Us
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="https://www.facebook.com/vibhu.singh.14811" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Say hello on FB">
-                  <i className="fab fa-facebook-square"></i> FaceBook
+              <a href="https://www.instagram.com/sunitis0026/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-dark" title="Follow on Instagram">
+                  <i className="fab fa-instagram"></i> Instagram
                 </Button>
               </a>
             </div>

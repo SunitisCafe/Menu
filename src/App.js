@@ -42,6 +42,14 @@ const App = () => {
        
       </div>
       <div>
+          <Container>
+      
+            <MyPhotos/>
+        
+          </Container>
+       
+      </div>
+      <div>
           <Container className="container-box rounded">
             
             <hr />

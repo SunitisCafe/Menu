@@ -12,23 +12,19 @@ import "./experience.style.css";
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">Menue</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">Menu</h1>
       <Jumbotron className="jumbo-style">
         <Container>
-          <Tilt options={{ max: 25 }}>
+          <Tilt options={{ max: 10 }}>
             <Card>
             <Image alt="menue" src={Profile} style={{
-              width: <>80%</>,
+              width: <>95%</>,
             }} />
             </Card>
           </Tilt>
         </Container>
       </Jumbotron>
-      {/* Unigov
-Job Description: Developing a social management platform which replicates the institutional 
-activities and provides 360-degree services to an individual on an online platform.
-Creating reusable React Native components and performing bug fixes.
-Duration: June1st, 2021 – July 31st, 2021 */}
+    
       
     </div>
   );
