@@ -1,17 +1,17 @@
 {
-  "name": "Menue",
-  "homepage": "http://sunitiscafe.github.io/Menu",
+  "name": "Menu",
+  "homepage": "https://sunitiscafe.github.io/Menu/",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "dependencies": { 
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.3",
     "gh-pages": "^3.2.3",
-    "n": "^9.2.0",
     "react": "^16.13.1",
+    "react-aspect-ratio": "^1.1.6",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-paralax": "^1.0.0",
@@ -23,8 +23,8 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "start": "react-scripts  --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
