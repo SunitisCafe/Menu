@@ -10,7 +10,7 @@ import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Skills from './pages/skills/skills.component';
-import Experience from './pages/experience/experience.component';
+import Menue from './pages/experience/experience.component';
 import Projects from './components/projects-timeline/projects-timelines.component';
 import Contact from './pages/contact-form/contact-form.component';
 import Footer from './components/footer/footer.component';
@@ -33,10 +33,9 @@ const App = () => {
         </Parallax>
       </div>
       <div>
-          <Container className="container-box rounded">
+          <Container>
       
-            <hr />
-            <Experience />
+            <Menue />
         
           </Container>
        
